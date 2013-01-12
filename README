@@ -1,0 +1,60 @@
+Final Project - Differential
+Landon Spear (spearl@colorado.edu)
+CSCI 5229 - Computer Graphics
+
+Compile with 'make'
+Run with './differential'
+
+ *  Drive the differential using: 
+ *              w
+ *            a s d   b
+ *
+ *  'w' will accelerate the driveshaft
+ *  's' will slow it down
+ *  'b' hits the breaks
+ *  'a' turns left and slows down the left wheel
+ *  'd' turns right and slows down the right wheel
+ *  
+ *  You may turn left or right until the gear speed
+ *  matches the driveshaft speed, at which point one of
+ *  the wheels will be stationary and the other turning
+ *  at twice normal speed. You can turn back the other way
+ *  to balance out the wheels or simply accelerate to give
+ *  that wheel an extra boost.
+ *
+ *  This project is indendended as an educational tool to
+ *  simplify and explore a complex mechanical system that all modern
+ *  cars employ. By playing with the left and right turns one can
+ *  see how a car is able to compensate for different wheel speeds
+ *  during cornering.
+ *
+ *  This was an incredibly fun project and I learned an enormous amount
+ *  while completing it. If I had more time I would add more detail to the
+ *  model by making the gear teeth more realistic by not making them square,
+ *  adding more models in simpler but less aplicable set ups, and adding a model
+ *  with a curved hypoid gear that is the actual model used in cars today.
+ *
+ *
+ *  The following are standard options to change lighting
+ *     features, turn of the axis, etc...
+ *
+ *  'p' to switch modes (projections)
+ *  'x' to toggle axes
+ *  '0' snaps angles to 0,0
+ *  arrows to rotate the world
+ *  PgUp/PgDn zooms in/out
+ *  +/- changes field of view of perspective
+ *  F1 toggles smooth/flat shading
+ *  F2 toggles local viewer mode
+ *  F3 toggles light distance (1/5)
+ *  F8 change ball increment
+ *  F9 invert bottom normal
+ *  'l' toggles lighting
+ *  a/A decrease/increase ambient light
+ *  d/D decrease/increase diffuse light
+ *  s/S decrease/increase specular light
+ *  e/E decrease/increase emitted light
+ *  n/N decrease/increase shininess
+ *  m  toggles light movement
+ *  [] lower/rise light
+
